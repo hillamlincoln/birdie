@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="*lr7mO|iLlR2j)uk!/S/">mySprite</variable><variable type="KIND_SpriteKind" id="r3q^qdWe,xH|:Jpp[|R`">Player</variable><variable type="KIND_SpriteKind" id="}Ey2W^m~18G^;Fs^w]?V">Projectile</variable><variable type="KIND_SpriteKind" id="s~EKJ(_:FB(3IiY)``aR">Food</variable><variable type="KIND_SpriteKind" id="b?pzSv^3OK2PXXsm6wn^">Enemy</variable></variables><block type="pxt-on-start" id="Y3Si{*8`Oi2%ETx;i)It" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="XIqdP(EeC![9h3;^D+d6"><field name="VAR" id="*lr7mO|iLlR2j)uk!/S/">mySprite</field><value name="VALUE"><shadow type="math_number" id="|zlHBN7U-Zs#.=jq?,X~"><field name="NUM">0</field></shadow><block type="spritescreate" id="klRg7HG92#lE!%l0qW!9"><value name="img"><shadow type="screen_image_picker" id="?FOV#v7Ci`8j7Sf4KY2P"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . f f f f f f f f f . . . . 
+. . f . . . . . . . . f f f . . 
+. f . . f . . . . . f . . f f . 
+f f . . f . f f f . f . . . f . 
+f . f . . . f f f . . . . . . f 
+f . . . . . . f . . . . f f . f 
+f . . . f f f . f f f . . . . f 
+f . . f f f f f f f f f . . . f 
+f f f f f f f f f f f f f f f f 
+f . . f f f f f f f f . . . . f 
+f . . . . f f f f . . . . . f f 
+. f f . . . . . . . . . . f f . 
+. . f f f f f f f f f f f . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="t.II:ISySr]zGijzdZzB"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesaytext" id="U;eW.t;]kt[s;6+Y.B@:"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="this"><block type="variables_get" id="w]9HF^W#x0ycUBf]FSMD"><field name="VAR" id="*lr7mO|iLlR2j)uk!/S/">mySprite</field></block></value><value name="text"><shadow type="text" id="/yJFPRh:W#dj:,BD%p/g"><field name="TEXT">:)</field></shadow></value><value name="timeOnScreen"><shadow type="timePicker" id="i;$D(XMO+C4J~nv_C?P:"><field name="ms">500</field></shadow></value><value name="animated"><shadow type="logic_boolean" id="5gyeN@:zz2FL=p,HB:~x"><field name="BOOL">FALSE</field></shadow></value></block></next></block></statement></block></xml>
